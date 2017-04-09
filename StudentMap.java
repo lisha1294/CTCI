@@ -32,7 +32,9 @@ public Map<Integer, Student> buildMap(Student[]students){        //declares a fu
 
 
 
-	StudentMap m;
+	StudentMap m = new StudentMap();
+	Map<Integer, Student> m2 = buildMap(students); 
+	 
 
 	//m.buildMap(students); //where did you declare buildMap? // answer: Map.java
 
