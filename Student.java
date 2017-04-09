@@ -21,20 +21,9 @@ public class Student {
     public int getId() {
     	return id;
     }
-        
-       
 
 
-//static Map<Integer, Student> map = new HashMap<Integer,Student>();
 
-//   public Map<Integer, Student> buildMap(Student[]students){
-//              for(Student s: students) map.put(s.getId(),s);
-//              return map;
-//              }
-}
-
-
-int main(){
 
 static Map<Integer, Student> map = new HashMap<Integer,Student>();  // declare a hashmap
 
