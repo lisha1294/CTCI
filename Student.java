@@ -1,48 +1,72 @@
 import java.util.*;
 
+
+
 public class Student {
-        
+
+
+
     // the Student class has
+
     // one field
+
     public int id;
-    private String name;    
-    
+
+    private String name;
+
+
+
     // the Student class has
+
     // one constructor
-    public Student(int inputID, string name) {
+
+    public Student(int inputID, String name) {  // you need to capitalize string
+
         id = inputID;
+        this.name =name;
+
     }
-        
+
+
+
     // the Student class has
+
     // two methods
+
     public void setId(int newValue) {
+
         id = newValue;
+
     }
-        
+
+
+
     public int getId() {
+
     	return id;
+
     }
 
-    public void setName(string newName){
+
+
+    public void setName(String newName){   // you need to capitalize string
+
         name = newName;
+
     }
 
-    public string getName(){
-    return name; 
+
+
+    public String getName(){// you need to capitalize string
+
+    return name;
+
     }
-}
 
 
-	
 
 
-int main (){
-	Student s(27, Erica);
-	Student s1(25, Erin);
-	Student[] students = {s, s1};
-	
-	Map m;
-	m.buildMap(students);  
-	
+
+
 
 }
