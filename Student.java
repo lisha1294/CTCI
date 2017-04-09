@@ -5,10 +5,11 @@ public class Student {
     // the Student class has
     // one field
     public int id;
-        
+    private String name;    
+    
     // the Student class has
     // one constructor
-    public Student(int inputID) {
+    public Student(int inputID, string name) {
         id = inputID;
     }
         
@@ -22,19 +23,26 @@ public class Student {
     	return id;
     }
 
+    public void setName(string newName){
+        name = newName;
+    }
 
-
-
-static Map<Integer, Student> map = new HashMap<Integer,Student>();  // declare a hashmap
-
-   public Map<Integer, Student> buildMap(Student[]students){        //declares a function buildMap that takes 
-              for(Student s: students) map.put(s.getId(),s);        // and iterates through all of them and puts each of them into the map with an id
-              return map;
-              }
-
-
-
+    public string getName(){
+    return name; 
+    }
 }
 
 
+	
 
+
+int main (){
+	Student s(27, Erica);
+	Student s1(25, Erin);
+	Student[] students = {s, s1};
+	
+	Map m;
+	m.buildMap(students);  
+	
+
+}
