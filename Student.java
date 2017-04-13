@@ -8,7 +8,7 @@ public class Student {
 
     // the Student class has
 
-    // two fields
+    // one field
 
     public int id;
 

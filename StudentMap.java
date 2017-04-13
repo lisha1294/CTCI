@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class StudentMap{
 
   
@@ -18,12 +19,10 @@ public Map<Integer, Student> buildMap(Student[]students){        //declares a fu
 
  public static void main(String[] args){
 
-
 	Student s = new Student(27, "Erica");
 
 
 	System.out.println("Student " + s.getId()+ "  -  " + s.getName());
-
 
 
 	Student s1 = new Student(25, "Erin");
@@ -33,9 +32,10 @@ public Map<Integer, Student> buildMap(Student[]students){        //declares a fu
 
 	StudentMap m = new StudentMap();
 	Map<Integer, Student> m2 = m.buildMap(students); 
-	
 	 
-	System.out.println("Student: " + m2.get(25).getName() );
+	
+	 System.out.println("Student: " + m2.get(25).getName() );
+	
 
 }  
   
