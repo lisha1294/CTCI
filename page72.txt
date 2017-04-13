@@ -1,0 +1,9 @@
+import java.util.*;
+//example code from book 
+
+public Hashmap<Interger, Student>buildMap(Student[] students){
+  Hashmap<Integer, Student> map = new Hashmap<Integer,Student>();
+  for(Student s:students) map.put(s.getId(), s);
+  return map;
+  
+ }
