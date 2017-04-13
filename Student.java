@@ -1,3 +1,4 @@
+// see page72.txt for inspiration of code
 import java.util.*;
 
 
