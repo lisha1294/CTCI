@@ -1,0 +1,10 @@
+//original code
+
+public ArrayList<String>merge(String[] words, String[] more){
+  ArrayList<String> sentence = new ArrayList<String>();
+  for(String w:words) sentence.add(w);
+  for(String w:more) sentence.add(w);
+  return sentence;
+}
+
+//This code is an example of an ArrayList (a dynamically resizing array). Typically the size doubles when the array is full. 
