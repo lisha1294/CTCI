@@ -1,6 +1,6 @@
 //original code
 
-public ArrayList<String>merge(String[] words, String[] more){
+public ArrayList<String>merge(String[] words, String[] more){ //in java this array of strings 
   ArrayList<String> sentence = new ArrayList<String>();
   for(String w:words) sentence.add(w);
   for(String w:more) sentence.add(w);
