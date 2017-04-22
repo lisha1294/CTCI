@@ -2,10 +2,8 @@
 import java.util.*;
 
 public class StudentMap{
-
   
 static Map<Integer, Student> map = new HashMap<Integer,Student>();  // declare a hashmap
-
 
 public Map<Integer, Student> buildMap(Student[]students){        //declares a function buildMap that takes
               for(Student s: students) map.put(s.getId(),s);        // and iterates through all student objects in an array  
@@ -13,16 +11,11 @@ public Map<Integer, Student> buildMap(Student[]students){        //declares a fu
               }
    
 
-  
-  
-
 
 
  public static void main(String[] args){
 
 	Student s = new Student(27, "Erica");
-
-
 	System.out.println("Student " + s.getId()+ "  -  " + s.getName());
 
 
@@ -30,11 +23,9 @@ public Map<Integer, Student> buildMap(Student[]students){        //declares a fu
 	Student[] students = {s, s1};
 
 
-
 	StudentMap m = new StudentMap();
 	Map<Integer, Student> m2 = m.buildMap(students); 
-	 
-	
+	 	
 	 System.out.println("Student: " + m2.get(25).getName() );
 	
 
