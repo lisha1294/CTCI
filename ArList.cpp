@@ -53,7 +53,7 @@ int main(){
 	string::iterator it;
 	cout<< sentence.size();
 	for(int i = 0; i < sentence.size(); i++) { 
-	for(it = sentence[i].begin(); it!=sentence[i].end(); ++it) {cout << sentence[*it];}
+	for(it = sentence[i].begin(); it!=sentence[i].end(); ++it) {cout << *it;}
 	}	
 }
 
