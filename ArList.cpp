@@ -34,7 +34,10 @@ vector<string> merge(string words[], string more[]){
 //	while(!words->end()){++i;}
 //	sentence(words, words+sizeof(&words)/sizeof(string));	
 //	it = sentence.begin();
-  	sentence.insert(it, words, words+i); 
+  	sentence.insert(it, words, words+i);
+	for (string::iterator it=more->begin(); it!=more->end(); ++it){i++;}
+	it = sentence.end();
+	sentence.insert(it, more, words+i);  
 //	new vector<string> sentence(words->begin(), words->end());
 	//for(string w: more) sentence.add(w);
 	return sentence;
