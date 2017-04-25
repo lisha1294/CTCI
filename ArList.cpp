@@ -35,9 +35,11 @@ vector<string> merge(string words[], string more[]){
 //	sentence(words, words+sizeof(&words)/sizeof(string));	
 //	it = sentence.begin();
   	sentence.insert(it, words, words+i);
-	for (string::iterator it=more->begin(); it!=more->end(); ++it){i++;}
+	int j=0;
+	for (string::iterator it=more->begin(); it!=more->end(); ++it){j++;/*cout<<"j:"<<j<<" "*/;}
+//		sentence.push_back()}
 //	it = sentence.end();
-	sentence.insert(sentence.end(), more,more+i);  
+	sentence.insert(sentence.end(), more,more+1);  
 	
 //	new vector<string> sentence(words->begin(), words->end());
 	//for(string w: more) sentence.add(w);
@@ -57,7 +59,9 @@ int main(){
 	string::iterator it;
 	cout<< sentence.size();
 	for(int i = 0; i < sentence.size(); i++) { 
-	for(it = sentence[i].begin(); it!=sentence[i].end(); ++it) {cout << *it;}
+	for(it = sentence[i].begin(); it!=sentence[i].end(); ++it) {
+		cout << *it;
+			}
 	}	
 }
 
