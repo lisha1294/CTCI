@@ -10,4 +10,5 @@ public ArrayList<String>merge(String[] words, String[] more){ //in java this arr
 //This code is an example of an ArrayList (a dynamically resizing array). Typically the size doubles when the array is full. 
 
 // is this code better because it is a resizing array? What is an application of this structure? what are the different java and c++ string functions? 
-//what I see is a merging function. why is this not just string.append? is that the equivalent in c++? 
+//what I see is a merging function. why is this not just string.append? is that the equivalent in c++?
+//This is ArrayList.cpp but in Java form .. I think 
