@@ -47,9 +47,6 @@ void print(vector< vector<int> > arr(3,vector<int>(3));){
            cout << arr[i][j]; 
         }   
     }
-    
-    sum = sum1 - (arr[i+1][j] + arr[i+1][j+2]); // subtracting the extra from the middle
-    return sum;
 }
 
 int main(){
